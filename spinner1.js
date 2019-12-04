@@ -1,6 +1,6 @@
-let x = 200
+let x = 200;
 
-for (i = 0; i < 100; i++) {
+for (let i = 0; i < 100; i++) {
   setTimeout(() => {
     process.stdout.write('\r |   ');
   }, x + (i * 1000));
@@ -16,4 +16,4 @@ for (i = 0; i < 100; i++) {
   setTimeout(() => {
     process.stdout.write('\r |   ');
   }, 5 * x + (i * 1000));
-};
+}

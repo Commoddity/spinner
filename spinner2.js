@@ -1,4 +1,4 @@
-let frameDelay = 200
+let frameDelay = 200;
 const animFrames = ['|', '/', '-', '\\'];
 const timeout = frameDelay * animFrames.length;
 
